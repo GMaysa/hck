@@ -82,7 +82,7 @@ Adalah tipe data yang hanya mempunyai dua nilai, yakni benar (True) atau salah (
 
 <br>
 
-**Bagaimana mengetahui tipe data dari sebuah variable**
+**Cara mengetahui tipe data dari sebuah variable**
 
 Dalam mencari tau tentang tipe data dalam sebuah variable kita dapat menggunakan typeof sebelum memanggil variable. Contoh:
 
