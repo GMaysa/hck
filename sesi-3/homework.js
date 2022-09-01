@@ -1,10 +1,12 @@
 const arrayOfWords = ['cucumber', 'tomatos', 'avocado'];
 const complicatedArray = ['cucumber', 44, true]
 
+// sort first
 const sortWords = (arr) => {
     return arr.sort()
 }
 
+// upperCase function
 let makeAllCaps = (arr) => {
     return new Promise((resolve)=>{
         const result = arr.map((upCase) => {
