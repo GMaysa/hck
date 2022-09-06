@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QTemu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            max-width: 100vw;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav, .left, ul, .logo, .bg-head, .content-head, .bg-content, .space, footer{
+            display: flex;
+            align-items: center;
+        }
+        nav{
+            top: 0;
+            width: 95%;
+            position: fixed;
+            justify-content: space-between;
+            background-color: #828282;
+            height: 80px;
+            color: #fff;
+            padding: 0 50px;
+        }
+        .left > .logo{
+            font-size: 25px;
+        }
+        .left > ul{
+            color: #ddd;
+            list-style: none;
+        }
+        .left > ul > li{
+            padding-left: 50px;
+            transition: .4s;
+            cursor: pointer;
+        }
+        .left > ul > li:hover{
+            color: #fff;
+        }
+        .right{
+            color: #fff;
+        }
+
+        .bg-head{
+            margin-top: 90px!important;
+            background-color: #c4c4c4;
+            height: fit-content;
+            width: 1885px;
+            max-width: 100vw;
+            margin: 10px;
+        }
+        .bg-head > .left >.image{
+            height: 310px;
+            margin: 20px 40px;
+            width: 310px;
+            background-color: #bdbdbd;
+        }
+        .bg-head > .right{
+            color: #333!important;
+        }
+        .right > tr > td, .right > h2{
+            padding : 10px 15px;
+        }
+        .right > button{
+            margin: 15px;
+            padding: 13px 50px;
+            font-weight: 600;
+            color: #ddd;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+        }
+        
+        section{
+            margin: 30px 0 0 10px;
+        }
+        .space{
+            justify-content: space-between;
+        }
+        .content{
+            padding: 10px 40px;
+        }
+        .bg-content{
+            background-color: #c4c4c4;
+            padding: 20px;
+        }
+        .bg-content > p{
+            font-weight: 500;
+            word-spacing: 1.5px;
+        }
+        .bg-content > .date{
+            padding-top: 10px;
+            color: #8f8f8f;
+        }
+        
+        .content-head{
+            justify-content: space-between;
+            width: 96.5vw;
+        }
+        .bg-content > .right > p{
+            font-size: 20px;
+            padding-left: 15px;
+        }
+        .bg-content > .right, .content-head > a{
+            color: #333!important;
+        }
+        .bg-content > .left > .image{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #828282;
+        }
+        
+        .sizing{
+            max-width: 250px;
+        }
+        hr{
+            border: 1px solid #999;
+            margin: 8px 0;
+        }
+        .card > button{
+            border: none;
+            background-color: #828282;
+            padding: 10px 20px;
+            color: #fff;
+        }
+        p > span{
+            color: #828282;
+        }
+        .went{
+            padding: 10px 0;
+        }
+
+        footer{
+            justify-content: center;
+            border-top: 1px solid #333;
+            margin: 0 40px;
+            margin-top: 40px;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div id="root"></div>
+</body>
+
+</html>
