@@ -1,4 +1,6 @@
-import React from "react";
+import React from "react"
+import PropTypes from 'prop-types'
+// props dan data flow
 
 class HeroName extends React.Component {
     render() {
@@ -10,6 +12,11 @@ class HeroName extends React.Component {
             </>
         )
     }
+}
+
+// propTypes digunakan untuk memvalidasi berbagai tipe data
+HeroName.propTypes = {
+    name: PropTypes.string
 }
 
 class Hero extends React.Component {
@@ -27,7 +34,6 @@ class Hero extends React.Component {
                 <HeroName name="Hercules"/>
                 <p>Step Two</p>
                 <HeroName name={this.state.name}/>
-                
             </>
         )
     }

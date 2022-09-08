@@ -7,7 +7,7 @@ class Counter extends React.Component{
             counter: 0
         }
     }
-
+    // UPDATE STATE
     increment = () => {
         this.setState({
             counter: this.state.counter + 1
