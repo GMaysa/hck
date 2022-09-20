@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+// import Statefull from './components/statefull';
+// import Stateless from './components/stateless';
+// import movie from './components/movieData';
+import FunctionalMain from './components/functionalComponent/main';
+import Counter from './components/Hooks/usestate';
+import Example from './components/Hooks/useEffect';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Statefull /> */}
+      {/* <Stateless movie={movie} /> */}
+      <FunctionalMain />
+      <br />
+      <br />
+      <Counter />
+      <br />
+      <br />
+      <Example />
+    </>
   );
+
 }
 
 export default App;
