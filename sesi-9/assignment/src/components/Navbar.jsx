@@ -7,7 +7,11 @@ import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/
 const Navbar = () => {
     return ( 
         <div className="bg-[#CBD5E1]/30 py-6 px-[8rem] backdrop-blur-sm">
-            <h1 className='w-full text-2xl font-bold text-[#0F172A]'><FontAwesomeIcon icon={icon({name: 'coffee', style: 'solid'})} />may<span className="font-normal">profile.</span></h1>
+            <h1 className='w-full text-2xl font-bold text-[#0F172A]'>may<span className="font-normal">profile.</span></h1>
+            <FontAwesomeIcon icon={solid('user-secret')} />
+            <FontAwesomeIcon icon={regular('coffee')} />
+            <FontAwesomeIcon icon={icon({name: 'coffee', style: 'solid'})} />
+            <FontAwesomeIcon icon={brands('twitter')} />
             <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
