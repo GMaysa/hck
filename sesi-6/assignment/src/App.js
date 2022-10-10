@@ -1,4 +1,3 @@
-import './App.css';
 import Disp from './components/display';
 
 function App() {
